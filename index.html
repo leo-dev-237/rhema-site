@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhema Group</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Bootstrap CSS via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- AOS CSS via CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+<!-- GLightbox CSS via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+<!-- Swiper CSS via CDN -->
+<link href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Autres CSS fournisseurs -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Feuille de style principale -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <!-- ======= En-tête ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Décommentez la ligne ci-dessous pour utiliser également un logo en image -->
+        <img src="assets/img/logo.png" alt="Logo Rhema">
+        <h1 class="sitename">Rhema Group</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <!-- <li><a href="#features">Fonctionnalités</a></li> -->
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="language-switcher">
+        <select class="form-select" id="languageSelect" aria-label="Sélecteur de langue" onchange="changeLanguage()">
+          <option value="fr">FR</option>
+          <option value="en">EN</option>
+        </select>
+      </div>
+      <a class="btn-getstarted" href="#contact">Contactez-nous</a>
+
+    </div>
+  </header>
+  <!-- ======= Fin En-tête ======= -->
+
+  <main class="main">
+
+    <!-- ======= Section Héros ======= -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                Au service de votre réussite
+              </div>
+
+              <h1 class="mb-4">
+                Nous <br>
+                facilitons <br>
+                et sécurisons <br>
+                les voyages <br>
+                <span class="accent-text">internationaux</span>
+              </h1>
+
+              <p class="mb-4 mb-md-5">
+                Nous associons le savoir-faire technique et le sens du devoir pour faciliter vos déplacements.
+                Simplifiez vos démarches VISA, explorez le monde et maximisez votre aventure avec Rhema Group SARL.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Commencer</a>
+                <!-- <a href="#" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                  <i class="bi bi-play-circle me-1"></i>
+                  Visionner la vidéo
+                </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Image Héros" class="img-fluid">
+
+              <div class="customers-badge">
+                <div class="customer-avatars">
+                  <img src="assets/img/avatar-1.webp" alt="Client 1" class="avatar">
+                  <img src="assets/img/avatar-2.webp" alt="Client 2" class="avatar">
+                  <img src="assets/img/avatar-3.webp" alt="Client 3" class="avatar">
+                  <img src="assets/img/avatar-4.webp" alt="Client 4" class="avatar">
+                  <span class="avatar more">12+</span>
+                </div>
+                <p class="mb-0 mt-2" id="visitorText">12 000+ visiteurs satisfaits</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= Fin Section Héros ======= -->
+
+    <!-- ======= Section À propos ======= -->
+     <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">EN SAVOIR PLUS SUR NOUS</span>
+            <h2 class="about-title">Tout ce que vous devez savoir pour nous choisir en toute confiance </h2>
+            <p class="about-description">Chez Rhema Group, votre sérénité est notre priorité. Découvrez pourquoi des centaines de voyageurs et professionnels nous font déjà confiance :</p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Expertise certifiée</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Accompagnement 360°</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Preuves par l’action</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Urgences maîtrisées</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Transparence radicale</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Protection maximale</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    <img src="assets/img/avatar-.webp" alt="CEO Profile" class="profile-image">
+                    <div>
+                      <h4 class="profile-name">Carole Tekam</h4>
+                      <p class="profile-position">PDG &amp; Fondatrice</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Appelez-nous à tout moment</p>
+                      <p class="contact-number">+1 (440) 782-1524</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              <div class="experience-badge floating">
+                <h3>15+ <span>Ans</span></h3>
+                <p>d'expérience dans les services de voyage</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= Fin Section À propos ======= -->
+
+    <!-- ======= Section Témoignages ======= -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Titre de la section -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Témoignages</h2>
+        <div class="underline mx-auto"></div>
+        <br>
+        <p>
+          Pourquoi nous choisir ? Parce que 98 % de nos clients obtiennent leur visa du premier coup !
+          Lisez comment Sara, Brandon et bien d’autres ont transformé leurs rêves en réalité grâce à notre
+          accompagnement sur-mesure.
+        </p>
+      </div>
+
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Brandon Maffo</h3>
+              <h4>Infirmier</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  Grâce à l'équipe de Rhema Group, notre visa canadien a été obtenu en 6 mois ! Ils ont géré chaque
+                  étape avec professionnalisme, même nos dossiers bancaires complexes. Un stress en moins pour notre
+                  voyage familial de rêve !
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Essome</h3>
+              <h4>Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  L'équipe a su répondre à toutes mes questions avec une grande réactivité et professionnalisme.
+                  Chaque étape du processus de demande de visa a été clairement expliquée, ce qui m'a permis de préparer
+                  mon voyage en toute sérénité. Un service exceptionnel !
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Noubissie</h3>
+              <h4>Propriétaire de boutique</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  Je recommande à 1000 % ! Sans leur expertise sur les visas étudiants canadiens, j'aurais perdu mon admission
+                  à l'université. Disponibles 24/7 et toujours avec des solutions concrètes.
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Leo Mbarga</h3>
+              <h4>Etudiant</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  Je ne pouvais rêver d'un meilleur soutien pour mon dossier de visa. L'agence a pris en charge tous les
+                  détails administratifs et m'a offert des conseils avisés pour organiser mon voyage. Leur service client
+                  attentionné a largement dépassé mes attentes. Merci pour cette expérience sans faille !
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= Fin Section Témoignages ======= -->
+
+    <!-- ======= Section Statistiques ======= -->
+    <section id="stats" class="stats section font-weight-bold">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Projets</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Heures d'assistance</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Collaborateurs</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= Fin Section Statistiques ======= -->
+
+    <!-- ======= Section Services ======= -->
+    <section id="services" class="services py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold mb-3">Nos Services</h2>
+          <div class="underline mx-auto"></div>
+          <br>
+          <p>
+            Découvrez nos services sur mesure pour vous accompagner dans vos démarches de visa, l'achat de billets
+            d'avion, l'import-export et bien plus encore.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Assistance Visa -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-passport fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Assistance Visa</h3>
+                <p class="text-muted mb-4">
+                  Nous vous accompagnons dans toutes les démarches de demande de visa afin de maximiser vos chances
+                  d'obtention et de faciliter vos déplacements internationaux.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Découvrir <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Achat billet avion -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-rocket fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Achat de Billet</h3>
+                <p class="text-muted text-body mb-4">
+                  Réservez vos billets d'avion aux meilleurs tarifs grâce à notre service de réservation en ligne sécurisé et efficace.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Explorer <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Import-Export -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-shipping-fast fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Import-Export</h3>
+                <p class="text-muted text-body mb-4">
+                  Optimisez vos échanges commerciaux grâce à notre service sur mesure d'import-export, alliant rapidité et fiabilité.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Optimiser <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conseil en voyages -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-globe-africa fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Conseil en voyages</h3>
+                <p class="text-muted text-body mb-4">
+                  Profitez d'un accompagnement personnalisé pour optimiser vos déplacements et vivre des expériences uniques.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Planifier <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= Fin Section Services ======= -->
+
+    <!-- ======= Section Contact ======= -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Titre de la section -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div class="underline mx-auto"></div>
+        <br>
+        <p>
+          Retrouvez ici toutes les informations nécessaires pour nous joindre. Notre équipe est à votre disposition pour répondre à vos questions et vous assister.
+        </p>  
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Informations de Contact</h3>
+              <p>Contactez-nous pour toute demande d'information ou de service.</p>
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Notre adresse</h4>
+                  <p>Yaoundé, Carrefour MEEC</p>
+                  <p>Douala, Logpom</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Téléphone</h4>
+                  <p>+1 (440) 782-1524</p>
+                  <p>+237 659 275 904</p>
+                  <p>+237 670 029 636</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Adresse e-mail</h4>
+                  <p>rhemagroupe17@gmail.com</p>
+                  <p>fomatemmanuel20@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="row justify-content-center align-items-center g-3 g-md-4">
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <a href="[lien_whatsapp]"><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <a href="[lien_facebook]"><i class="bi bi-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <a href="mailto:rhemagroupe17@gmail.com"><i class="bi bi-envelope"></i></a>
+                  </div>
+                </div>
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="400"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Contactez-nous</h3>
+              <p>Nous sommes là pour vous, envoyez-nous un message à tout moment.</p>
+
+              <form action="mailto:rhemagroupe17@gmail.com" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Votre nom" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Votre email" required>
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Objet" required>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Chargement...</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Votre message a été envoyé. Merci !</div>
+
+                    <button type="submit" class="btn">Envoyer le message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= Fin Section Contact ======= -->
+
+  </main>
+
+  <!-- ======= Pied de page ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="Logo Rhema">
+            <span class="sitename">Rhema Group</span>
+          </a>
+          <div class="footer-contact pt-2">
+            <p><strong>Localisation:<br></strong>Yaoundé, Carrefour MEEC</p>
+            <p>Douala, Logpom</p>
+            <p class="mt-3"><strong>Téléphone:</strong> <span>+1 (440) 782-1524</span></p>
+            <p><strong>Email:</strong> <span>rhemagroupe17@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href="mailto:rhemagroupe17@gmail.com"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2.5 col-md-3 footer-links">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testimonials">Témoignages</a></li>
+        </div>
+
+        <div class="col-lg-2.5 col-md-3 footer-links">
+          <h4>Nos Services</h4>
+          <ul>
+            <li><a href="#">Assistance VISA</a></li>
+            <li><a href="#">Achat de billet d'avion</a></li>
+            <li><a href="#">Pré-enrôlement passeport</a></li>
+            <li><a href="#">Procédure d'admission</a></li>
+            <li><a href="#">Conseils divers</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4></h4>
+          <ul>
+            <li><a href="#">Paiement certificat médical et timbre fiscal</a></li>
+            <li><a href="#">Attestation d'immatriculation (NIU)</a></li>
+            <li><a href="#">Déclaration annuelle des revenus</a></li>
+            <li><a href="#">Services complémentaires</a></li>
+            <li><a href="#">Et bien plus encore</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Rhema Group</strong> <span>Tous droits réservés</span></p>
+      <div class="credits">
+        Conçu par <a href="">Leo Manfo</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ======= Fin Pied de page ======= -->
+
+  <!-- Bouton de remontée -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Fichiers JS des fournisseurs -->
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> -->
+
+  <!-- Bootstrap JS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- php-email-form/validate.js n'a pas de CDN officiel – hébergez-le sur votre serveur -->
+  <script src="https://votre-domaine.com/path/to/validate.js"></script>
+
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- GLightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+  <!-- Swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+  <!-- PureCounter -->
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+
+  <!-- Fichier JS principal -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

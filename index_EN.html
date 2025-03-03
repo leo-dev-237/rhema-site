@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rhema Group</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Bootstrap CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- AOS CSS via CDN -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+
+  <!-- GLightbox CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Swiper CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Other Vendor CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below to also use an image logo -->
+        <img src="assets/img/logo.png" alt="Rhema Logo">
+        <h1 class="sitename">Rhema Group</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <!-- <li><a href="#features">Features</a></li> -->
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="language-switcher">
+        <select class="form-select" id="languageSelect" aria-label="Language Selector" onchange="changeLanguage()">
+          <option value="en">EN</option>
+          <option value="fr">FR</option> 
+        </select>
+      </div>
+      <a class="btn-getstarted" href="#contact">Contact us</a>
+
+    </div>
+  </header>
+  <!-- ======= End Header ======= -->
+
+  <main class="main">
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <div class="company-badge mb-4">
+                <i class="bi bi-gear-fill me-2"></i>
+                Dedicated to Your Success
+              </div>
+
+              <h1 class="mb-4">
+                We <br>
+                Facilitate <br>
+                and Secure <br>
+                International Travel <br>
+                <span class="accent-text">Worldwide</span>
+              </h1>
+
+              <p class="mb-4 mb-md-5">
+                We combine technical know-how and a sense of duty to simplify your travel. Simplify your VISA procedures, explore the world, and maximize your adventure with Rhema Group SARL.
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
+                <!-- <a href="#" class="btn btn-link mt-2 mt-sm-0 glightbox">
+                  <i class="bi bi-play-circle me-1"></i>
+                  Watch Video
+                </a> -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+              <img src="assets/img/illustration-1.webp" alt="Hero Image" class="img-fluid">
+
+              <div class="customers-badge">
+                <div class="customer-avatars">
+                  <img src="assets/img/avatar-1.webp" alt="Customer 1" class="avatar">
+                  <img src="assets/img/avatar-2.webp" alt="Customer 2" class="avatar">
+                  <img src="assets/img/avatar-3.webp" alt="Customer 3" class="avatar">
+                  <img src="assets/img/avatar-4.webp" alt="Customer 4" class="avatar">
+                  <span class="avatar more">12+</span>
+                </div>
+                <p class="mb-0 mt-2" id="visitorText">12,000+ satisfied visitors</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= End Hero Section ======= -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-xl-5" data-aos="fade-up" data-aos-delay="200">
+            <span class="about-meta">LEARN MORE ABOUT US</span>
+            <h2 class="about-title">Everything You Need to Know to Choose Us with Confidence</h2>
+            <p class="about-description">
+              At Rhema Group, your peace of mind is our priority. Discover why hundreds of travelers and professionals already trust us:
+            </p>
+
+            <div class="row feature-list-wrapper">
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Certified Expertise</li>
+                  <li><i class="bi bi-check-circle-fill"></i> 360° Support</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Proof Through Action</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <ul class="feature-list">
+                  <li><i class="bi bi-check-circle-fill"></i> Crisis Management</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Radical Transparency</li>
+                  <li><i class="bi bi-check-circle-fill"></i> Maximum Protection</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="info-wrapper">
+              <div class="row gy-4">
+                <div class="col-lg-5">
+                  <div class="profile d-flex align-items-center gap-3">
+                    <img src="assets/img/avatar-.webp" alt="CEO Profile" class="profile-image">
+                    <div>
+                      <h4 class="profile-name">Carole Tekam</h4>
+                      <p class="profile-position">CEO &amp; Founder</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-7">
+                  <div class="contact-info d-flex align-items-center gap-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    <div>
+                      <p class="contact-label">Call us anytime</p>
+                      <p class="contact-number">+1 (440) 782-1524</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="image-wrapper">
+              <div class="images position-relative" data-aos="zoom-out" data-aos-delay="400">
+                <img src="assets/img/about-5.webp" alt="Business Meeting" class="img-fluid main-image rounded-4">
+                <img src="assets/img/about-2.webp" alt="Team Discussion" class="img-fluid small-image rounded-4">
+              </div>
+              <div class="experience-badge floating">
+                <h3>15+ <span>Years</span></h3>
+                <p>of experience in travel services</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= End About Section ======= -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <div class="underline mx-auto"></div>
+        <br>
+        <p>
+          Why choose us? Because 98% of our clients get their visa on the first try!
+          Read how Sara, Brandon, and many others transformed their dreams into reality with our tailored support.
+        </p>
+      </div>
+
+      <div class="container">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <h3>Brandon Maffo</h3>
+              <h4>Nurse</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  Thanks to the Rhema Group team, our Canadian visa was obtained in 6 months! They managed every step with professionalism, even our complex banking files. One less worry for our dream family vacation!
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <h3>Sara Essome</h3>
+              <h4>Designer</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  The team answered all my questions with great responsiveness and professionalism. Every step of the visa application process was clearly explained, allowing me to prepare my trip with complete peace of mind. Exceptional service!
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Noubissie</h3>
+              <h4>Store Owner</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  I recommend them 1000%! Without their expertise on Canadian student visas, I would have lost my university admission. Available 24/7 and always with practical solutions.
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="testimonial-item rounded-4">
+              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <h3>Leo Mbarga</h3>
+              <h4>Student</h4>
+              <div class="stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                <i class="bi bi-quote quote-icon-left"></i>
+                <span>
+                  I couldn’t have imagined better support for my visa application. The agency handled every administrative detail and offered valuable advice to organize my trip. Their attentive customer service far exceeded my expectations. Thank you for this flawless experience!
+                </span>
+                <i class="bi bi-quote quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= End Testimonials Section ======= -->
+
+    <!-- ======= Stats Section ======= -->
+    <section id="stats" class="stats section font-weight-bold">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Hours of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
+                class="purecounter"></span>
+              <p>Team Members</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= End Stats Section ======= -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="fw-bold mb-3">Our Services</h2>
+          <div class="underline mx-auto"></div>
+          <br>
+          <p>
+            Discover our tailor-made services to assist you with your visa applications, flight ticket bookings, import-export, and much more.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Visa Assistance -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-passport fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Visa Assistance</h3>
+                <p class="text-muted mb-4">
+                  We guide you through every step of the visa application process to maximize your chances of approval and facilitate your international travel.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Discover <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Flight Ticket Booking -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-rocket fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Flight Ticket Booking</h3>
+                <p class="text-muted text-body mb-4">
+                  Book your flight tickets at the best rates with our secure and efficient online booking service.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Explore <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Import-Export -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-shipping-fast fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Import-Export</h3>
+                <p class="text-muted text-body mb-4">
+                  Optimize your business transactions with our tailor-made import-export service, combining speed and reliability.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Optimize <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Travel Consulting -->
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="service-card card h-100 border-0 shadow-hover">
+              <div class="card-body p-4 text-center">
+                <div class="icon-wrapper mb-4">
+                  <i class="fas fa-globe-africa fa-3x text-white"></i>
+                </div>
+                <h3 class="h4 fw-bold mb-3">Travel Consulting</h3>
+                <p class="text-muted text-body mb-4">
+                  Benefit from personalized support to optimize your travel and enjoy unique experiences.
+                </p>
+                <a href="#" class="btn btn-link text-primary text-decoration-none fw-bold">
+                  Plan <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= End Services Section ======= -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <div class="underline mx-auto"></div>
+        <br>
+        <p>
+          Find all the necessary information to contact us here. Our team is available to answer your questions and assist you.
+        </p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4 g-lg-5">
+          <div class="col-lg-5">
+            <div class="info-box" data-aos="fade-up" data-aos-delay="200">
+              <h3>Contact Information</h3>
+              <p>Contact us for any information or service inquiries.</p>
+              <div class="info-item" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-geo-alt"></i>
+                </div>
+                <div class="content">
+                  <h4>Our Address</h4>
+                  <p>Yaoundé, Carrefour MEEC</p>
+                  <p>Douala, Logpom</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-telephone"></i>
+                </div>
+                <div class="content">
+                  <h4>Phone</h4>
+                  <p>+1 (440) 782-1524</p>
+                  <p>+237 659 275 904</p>
+                  <p>+237 670 029 636</p>
+                </div>
+              </div>
+
+              <div class="info-item" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-envelope"></i>
+                </div>
+                <div class="content">
+                  <h4>Email Address</h4>
+                  <p>rhemagroupe17@gmail.com</p>
+                  <p>fomatemmanuel20@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="row justify-content-center align-items-center g-3 g-md-4">
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box">
+                    <a href="[whatsapp_link]"><i class="bi bi-whatsapp"></i></a>
+                  </div>
+                </div>
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <a href="[facebook_link]"><i class="bi bi-facebook"></i></a>
+                  </div>
+                </div>
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="400">
+                  <div class="icon-box">
+                    <a href="mailto:rhemagroupe17@gmail.com"><i class="bi bi-envelope"></i></a>
+                  </div>
+                </div>
+                <div class="info-item col-4 col-sm-3 col-md-2" data-aos="fade-up" data-aos-delay="400"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
+              <h3>Contact Us</h3>
+              <p>We are here for you, send us a message at any time.</p>
+
+              <form action="mailto:rhemagroupe17@gmail.com" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+
+                  <div class="col-md-6">
+                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                  </div>
+
+                  <div class="col-12">
+                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                  </div>
+
+                  <div class="col-12">
+                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                  </div>
+
+                  <div class="col-12 text-center">
+                    <div class="loading">Loading...</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- ======= End Contact Section ======= -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/logo.png" alt="Rhema Logo">
+            <span class="sitename">Rhema Group</span>
+          </a>
+          <div class="footer-contact pt-2">
+            <p><strong>Location:<br></strong>Yaoundé, Carrefour MEEC</p>
+            <p>Douala, Logpom</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 (440) 782-1524</span></p>
+            <p><strong>Email:</strong> <span>rhemagroupe17@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href="mailto:rhemagroupe17@gmail.com"><i class="bi bi-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2.5 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2.5 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Visa Assistance</a></li>
+            <li><a href="#">Flight Ticket Booking</a></li>
+            <li><a href="#">Passport Pre-enrollment</a></li>
+            <li><a href="#">Admission Process</a></li>
+            <li><a href="#">Various Consulting</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4></h4>
+          <ul>
+            <li><a href="#">Payment for Medical Certificate and Fiscal Stamp</a></li>
+            <li><a href="#">Registration Certificate (NIU)</a></li>
+            <li><a href="#">Annual Income Declaration</a></li>
+            <li><a href="#">Additional Services</a></li>
+            <li><a href="#">And Much More</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Rhema Group</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="">Leo Manfo</a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- ======= End Footer ======= -->
+
+  <!-- Scroll to Top Button -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script> -->
+
+  <!-- Bootstrap JS via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- php-email-form/validate.js n'a pas de CDN officiel – hébergez-le sur votre serveur -->
+  <script src="https://votre-domaine.com/path/to/validate.js"></script>
+
+  <!-- AOS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <!-- GLightbox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/js/glightbox.min.js"></script>
+
+  <!-- Swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+  <!-- PureCounter -->
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
