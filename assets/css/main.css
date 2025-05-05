@@ -572,9 +572,9 @@ h6 {
 .notification {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 0.1%;
   padding: 1rem 1.5rem;
-  border-radius: 8px;
+  border-radius: 20px;
   background-color: #0453fd2c;
   font-family: Arial, sans-serif;
   font-size: 16px;
